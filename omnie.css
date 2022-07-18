@@ -1,0 +1,52 @@
+h2
+{
+    text-align: center;
+}
+p
+{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+#content>img
+{
+    width: 8.5%;
+    height: 20vh;
+    border-radius: 50%;
+    margin-left: 45.75%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#content>h1
+{
+    text-align: center;
+}
+#content>.etap>p
+{
+    width: 50%;
+    margin-left: 35%;
+    text-align: justify;
+}
+.etap
+{
+    margin-bottom: 2vh;
+}
+.edukacja
+{
+    width: 20%;
+    margin-left: 15%;
+    float:  left;
+}
+#content>.etap>.edukacja>h3,
+#content>.etap>.edukacja>h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.icon-book-open
+{
+    margin-left: 8%;
+    margin-top: 0.8vh;
+    font-size: 4.2vh;
+    float: left;
+}
