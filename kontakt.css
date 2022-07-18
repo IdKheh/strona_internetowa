@@ -29,6 +29,11 @@
 {
     height: 5vh;
 }
+#contact>form>textarea
+{
+    max-height:18vh;
+	max-width:81.1%;
+}
 #contact>form>textarea,
 #contact>form>input
 {
