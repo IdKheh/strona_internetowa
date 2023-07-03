@@ -1,7 +1,7 @@
 #date
 {
-    width: 30%;
-    height: 67vh;
+    width: 40%;
+    height: 62vh;
     background-color: #222;
     color: white;
     text-align: left;
@@ -10,7 +10,7 @@
 #date>h3
 {
     margin-left: 20%;
-    margin-top: 15vh;
+    margin-top: 10vh;
     font-size: 3vh;
 }
 #date>p
@@ -19,54 +19,11 @@
     margin-top: 6vh;
     font-size: 1.8vh;
 }
-#contact>form
-{
-    width: 60%;
-    padding-left:40% ;
-    height: 67vh;
-}
-#contact>form>input
-{
-    height: 5vh;
-}
-#contact>form>textarea
-{
-    max-height:18vh;
-	max-width:81.1%;
-}
-#contact>form>textarea,
-#contact>form>input
-{
-    font-family: 'Lato', sans-serif;
-    margin-top: 1vh;
-    margin-right: 0.5%;
-    width: 40%;
-    border:none;
-    font-size: 1.5vh;
-    border-bottom: #222 1px solid;
-}
-#contact>form>#imie,
-#contact>form>#nazwisko
-{
-    margin-top: 12vh;
-}
-#contact>form>textarea,
-#contact>form>#subject
-{
-    width: 81.1%;
-
-}
-#contact>form>#przycisk
-{
-    background-color: #222;
-    width: 81.5%;
-    color: white;
-}
-#contact>form>#przycisk:hover
-{
-    cursor:pointer;
-    color: black;
-    background-color: white;
-    border: 1px black solid;
-
+#topbar{
+    background: url('notebook-ge2831aeb6_1920.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:66vh;
+    margin-left:40%;
+    width:60%;
 }

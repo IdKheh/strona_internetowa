@@ -7,7 +7,7 @@ body
 }
 header
 {
-    font-size: 5vh;
+    font-size: 30px;
     padding-top: 4vh;
     height: 10vh;
     width: 100%;
@@ -29,7 +29,8 @@ nav>ol
 }
 nav>ol>a>li
 {
-	font-size:1.5vh;
+    width: 7%;
+	font-size:11px;
 	float:left;
 	text-align: center;
     margin-right: 1%;
@@ -42,7 +43,7 @@ nav>ol>a>li
 }
 nav>ol>a:first-child>li
 {
-    margin-left: 42%;
+    margin-left: 38%;
 }
 nav>ol>a:hover>li
 {
@@ -54,6 +55,7 @@ footer
     border-top: 1px solid goldenrod;
     height:7vh;
     width:100%;
+    font-size: 12px;
     padding-top: 5vh;
     text-align: center;
 }

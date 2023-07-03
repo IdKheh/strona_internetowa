@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="stylesheet" href="index.css" type="text/css"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.7.0.min.js"
+			  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+			  crossorigin="anonymous"></script>
     <script type="text/javascript" src="gallery.js"></script>
+		
     <title>Wiktoria Dębowska - Strona główna</title>
 </head>
-<body>
+<body onload="start()">
     <header>Wiktoria Dębowska</header>
     <nav>
         <ol>
@@ -21,16 +25,10 @@
             <a href="kontakt.html"><li>Kontakt</li></a>
         </ol>
     </nav>
-
-    <div id="topbar" style="background: url('mountain-g7f3e4cb02_1920.jpg');background-repeat: no-repeat; 
-    background-size: cover;	height:80vh; width:100%;"></div>
-    <!--author of photography Andreas aka adege, licence:  
-        Pixabay License 
-        Darmowy do użytku komercyjnego
-        Nie wymaga przypisania-->
-    <section id="gallery">
-
-    </section>       
+    <section id="gallery"></section>
+    <section id="dot">
+        <div style="clear:both;"></div> 
+    </section> 
     <footer>Wiktoria Dębowska &copy; Wszelkie prawa zastrzeżone</footer>   
 </body>
 </html>
