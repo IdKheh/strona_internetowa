@@ -43,6 +43,10 @@ p
     margin-top: 0;
     margin-bottom: 0;
 }
+#content>.etap>.edukacja>h4
+{
+    margin-left: 21.1%;
+}
 .icon-book-open
 {
     margin-left: 8%;
